@@ -1,0 +1,4 @@
+hinh1:
+n = int(input("nhập số n vào đây: "))
+for i in range(n):
+    print("1 " * n)
