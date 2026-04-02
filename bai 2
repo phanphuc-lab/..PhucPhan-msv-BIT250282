@@ -1,0 +1,48 @@
+hinh1:
+n = int(input("nhập số n vào đây: "))
+for i in range(n):
+    print("* " * n)
+
+hinh2:
+n = int(input("nhập số n vào đây: "))
+for i in range(1, n+1):
+    print("* " * i)
+
+hinh3:
+n = int(input("nhập số n vào đây: "))
+for i in range(n, 0, -1):
+    print("* " * i)
+
+hinh4:
+n = int(input("nhập số n vào đây: "))
+for i in range(1, n + 1):
+    print("  " * (n - i), end="")
+    print("* " * i)
+
+hinh5:
+n = int(input("nhập số n vào đây: "))
+for i in range(n):
+    s = ""
+    for j in range(n):
+        if j == 0 or i == n-1 or i == j:
+            s += "* "
+        else:
+            s += "  "
+    print(s)
+
+
+hinh7:
+n = int(input("nhập số n vào đây: "))
+for i in range(n):
+    s = ""
+    for j in range(n):
+        if j == n-1 or i == n-1 or i + j == n-1:
+            s += "* "
+        else:
+            s += "  "
+    print(s)
+
+hinh8:
+n = int(input("nhập số n vào đây: "))
+for i in range(1, n +1):
+    print(" " * (n - i), "* " * i)
