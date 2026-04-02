@@ -1,0 +1,4 @@
+m = int(input("nhập số m vào đây: "))
+n = int(input("nhập số n vào đây: "))
+for i in range(m):
+    print("* " * n)
